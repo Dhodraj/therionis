@@ -1,0 +1,35 @@
+# FastAPI and web server dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+aiofiles==24.1.0
+
+# Medical imaging and ML libraries
+torch>=2.2.0
+torchvision>=0.17.0
+torchxrayvision>=1.0.1
+monai>=1.3.0
+torchcam>=0.4.0
+captum>=0.6.0
+
+# Image processing and visualization
+opencv-python>=4.8.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Utilities
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+pydicom>=2.4.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
